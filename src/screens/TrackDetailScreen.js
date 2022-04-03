@@ -3,12 +3,17 @@ import React from 'react'
 
 const TrackDetailScreen = () => {
   return (
-    <View>
-      <Text>TrackDetailScreen</Text>
-    </View>
+    <>
+      <Text style={styles.text} >TrackDetailScreen</Text>
+    </>
   )
 }
 
-export default TrackDetailScreen
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  text: {
+    fontSize: 48
+  }
+})
+
+export default TrackDetailScreen;
