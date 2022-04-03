@@ -1,5 +1,6 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet } from 'react-native'
 import React from 'react'
+import { Text, Input, Button } from 'react-native-elements'
 
 const SigninScreen = () => {
   return (
