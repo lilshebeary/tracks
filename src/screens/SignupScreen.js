@@ -28,8 +28,16 @@ const SignupScreen = ({ navigation }) => {
   )
 }
 
-export default SignupScreen
+
+
+SignupScreen.navigationOptions = () => {
+  return {
+    headerShown: false,
+  };
+};
 
 const styles = StyleSheet.create({
  
-})
+});
+
+export default SignupScreen;
