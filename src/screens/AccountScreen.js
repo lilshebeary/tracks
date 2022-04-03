@@ -10,7 +10,7 @@ const AccountScreen = () => {
 }
 
 const styles = StyleSheet.create({
-   text {
+   text: {
        fontSize: 48
    } 
 })

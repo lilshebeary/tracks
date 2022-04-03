@@ -4,11 +4,15 @@ import React from 'react'
 const SigninScreen = () => {
   return (
     <View>
-      <Text>SigninScreen</Text>
+      <Text style={styles.text}>Signin Screen</Text>
     </View>
   )
 }
 
 export default SigninScreen
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  text: {
+    fontSize: 48
+  }
+})

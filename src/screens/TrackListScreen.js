@@ -4,11 +4,15 @@ import React from 'react'
 const TrackListScreen = () => {
   return (
     <View>
-      <Text>TrackListScreen</Text>
+      <Text style={styles.text}>TrackListScreen</Text>
     </View>
   )
 }
 
 export default TrackListScreen
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  text: {
+    fontSize: 48
+  }
+})
