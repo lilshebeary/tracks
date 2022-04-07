@@ -1,5 +1,5 @@
 import React, { useState, useContext } from 'react'
-import { StyleSheet, View } from 'react-native'
+import { StyleSheet, View, TouchableOpacity } from 'react-native'
 import { Text, Input, Button } from 'react-native-elements'
 import Spacer from '../components/Spacer'
 import { Context as AuthContext} from '../context/AuthContext'
@@ -45,7 +45,9 @@ const SignupScreen = ({ navigation }) => {
         onPress={() => signup({ email, password })}
       />
     </Spacer>
-    
+    <TouchableOpacity onPress={() => navigation.navigate('Signin')} >
+
+    </TouchableOpacity>
     </View>
   )
 }
