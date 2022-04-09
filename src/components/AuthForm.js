@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Text, Button } from "react-native-elements";
+import { Text, Button, Input } from "react-native-elements";
 import { StyleSheet } from "react-native";
 import Spacer from "./Spacer";
 
@@ -57,3 +57,9 @@ const styles = StyleSheet.create({
 });
 
 export default AuthForm;
+
+// SigninScreen.navigationOptions = () => {
+//     return {
+//       headerShown: false,
+//     };
+//   };
